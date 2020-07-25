@@ -128,7 +128,7 @@
             break;
     }
     printf(")");
-    printf(" (minute interval: %li)", datePicker.minuteInterval);
+    printf(" (minute interval: %li)", (long)datePicker.minuteInterval);
 }
 
 - (void)printAccessibilityElementsWithIndentation:(int)indent {
